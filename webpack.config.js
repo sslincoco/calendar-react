@@ -4,7 +4,6 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
 	
-	// entry: './main.js','./redux-demo6.js',
 	entry: './calendar.js',
 	output: {
 		path: '/',
