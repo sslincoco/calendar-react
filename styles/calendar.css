@@ -1,0 +1,56 @@
+.day-list {
+	overflow: hidden;
+}
+.day-item1 {
+	list-style:none;
+	float:left;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	padding: 0 6px;
+}
+
+.calendar {
+	border:1px solid red;
+	padding: 10px;
+	width: 300px;
+}
+
+.calendarTitle{	
+	text-align: center;
+	color: red;
+}
+.calendarHeader{
+	margin-top: 16px;
+	margin-bottom: 6px;
+	position: relative;
+	text-align: center;
+}
+.calendarHeader .prev {
+	position: absolute;
+	left: 20px;
+	cursor: pointer;
+}
+.calendarHeader .next {
+	position: absolute;
+	right: 20px;
+	cursor: pointer;
+}
+
+.calendarBody{
+	text-align: center;
+	width: 300px;
+}
+.date-item {
+	border: 1px solid #fff;
+}
+.date-item:hover {
+    background: #c2c2a2;
+    border: 1px solid #ccc;
+}
+.inPrevMonth, .inNextMonth {
+	color: #999;
+}
+.calendarBody .datePicked {
+	background: #a2a2c2;
+}

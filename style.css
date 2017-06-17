@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: block;
+	height: 100px;
+	overflow: auto;
+	background-color: pink;
+	font-size: 20px;
+}
+.container {
+	height: 90px;
+	display: flex;
+}
+pre {
+	background-color: #f8f8f8;
+}
+pre, textarea {
+	width: 50%;
+	
+}
